@@ -1,0 +1,21 @@
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    border: 1.4px solid black;
+  }

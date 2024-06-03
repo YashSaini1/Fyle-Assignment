@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="Images/icons8-laptop-coding-32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/utility.css" rel="stylesheet" />
+    <title>Elite Solutions</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <a href="#" class="logo">
+            <h2><span>ELITE</span> Solutions</h2>
+          </a>
+
+          <div class="nav-collapse">
+            <ul class="flex item-center">
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#whyUs">Why Us?</a>
+              </li>
+              <li>
+                <a href="#project">Projects</a>
+              </li>
+              <li>
+                <a href="#review">Reviews</a>
+              </li>
+              <li>
+                <button class="contact-us-button">Contact Us</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="contact-form-container" id="contactForm">
+      <form
+        action="https://getform.io/f/lakmjxva"
+        method="POST"
+        class="contact-form"
+      >
+        <input type="email" name="email" placeholder="Work email*" required />
+        <input
+          type="text"
+          name="first-name"
+          placeholder="First name*"
+          required
+        />
+        <input type="text" name="last-name" placeholder="Last name*" required />
+
+        <!-- add hidden Honeypot input to prevent spams -->
+        <input type="hidden" name="_gotcha" style="display: none !important" />
+
+        <div class="checkbox-container">
+          <input
+            type="checkbox"
+            name="subscribe"
+            value="yes"
+            checked
+            id="subscribe"
+          />
+          <label for="subscribe" style="font-size: 14px;"
+            >I agree to Fyle's terms and conditions, and provide consent to send
+            me communication.</label
+          >
+        </div>
+        <input type="hidden" name="subscribe" value="no" />
+        <button type="submit">Contact Us</button>
+      </form>
+    </div>
+
+    <main>
+      <section class="flex item-center first">
+        <div class="content">
+          <p>AWARD WINNING</p>
+          <p><span>DIGITAL MARKETING</span> AGENCY</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+            voluptate quod non fugiat repellendus inventore odio perspiciatis
+            nostrum fugit, natus quaerat quisquam? Quaerat, voluptatem delectus
+            ipsum inventore ipsam natus provident quas consequuntur temporibus
+            tenetur!
+          </p>
+
+          <button class="contact-us-button">Get Started</button>
+        </div>
+
+        <div>
+          <img src="Images/image.jpg" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="services" class="second">
+        <div class="content">
+          <p>WHAT WE DO</p>
+          <div class="flex item-center details">
+            <h3>SERVICES PROVIDE FOR YOU</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              dolor consequatur laborum, iure laudantium cumque mollitia fugiat
+              consequuntur illo corrupti.
+            </p>
+          </div>
+        </div>
+        <div class="imageSlider">
+          <div class="wrapper">
+            <i id="left" class="fa-solid fas fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="card">
+                <div class="img">
+                  <img src="Images/image1.avif" alt="image" draggable="false" />
+                </div>
+                <div class="card-content">
+                  <img src="Images/webIcon.png" alt="icon" />
+                  <h5>WEB DEVELOPMENT</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos quisquam minima similique quos reprehenderit
+                    fugit!
+                  </p>
+                  <button>
+                    <a href="fylehq.com" target="_blank">Read More</a>
+                  </button>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <img src="Images/image2.jpeg" alt="image" draggable="false" />
+                </div>
+                <div class="card-content">
+                  <img src="Images/appDevIcon.png" alt="icon" />
+                  <h5>APP DEVELOPMENT</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos quisquam minima similique quos reprehenderit
+                    fugit!
+                  </p>
+                  <button>
+                    <a href="fylehq.com" target="_blank">Read More</a>
+                  </button>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <img src="Images/image3.jpeg" alt="" draggable="false" />
+                </div>
+                <div class="card-content">
+                  <img src="Images/Marketing.png" alt="icon" />
+                  <h5>DIGITAL MARKETING</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos quisquam minima similique quos reprehenderit
+                    fugit!
+                  </p>
+                  <button>
+                    <a href="fylehq.com" target="_blank">Read More</a>
+                  </button>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <img src="Images/image4.jpeg" alt="" draggable="false" />
+                </div>
+                <div class="card-content">
+                  <img src="Images/InstaIcon.png" alt="icon" />
+                  <h5>SOCIAL MEDIA INFLUENCER</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos quisquam minima similique quos reprehenderit
+                    fugit!
+                  </p>
+                  <button>
+                    <a href="fylehq.com" target="_blank">Read More</a>
+                  </button>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <img src="Images/image5.jpeg" alt="" draggable="false" />
+                </div>
+                <div class="card-content">
+                  <img src="Images/cyberIcon.png" alt="icon" />
+                  <h5>INTERNET OF THINGS(IOT)</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos quisquam minima similique quos reprehenderit
+                    fugit!
+                  </p>
+                  <button>
+                    <a href="fylehq.com" target="_blank">Read More</a>
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fas fa-angle-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="whyUs" class="third">
+        <div class="content">
+          <p>WHY CHOOSE US?</p>
+          <h3>WHY WE ARE THE BEST?</h3>
+        </div>
+        <div class="cardContainer flex">
+          <div class="card">
+            <img src="Images/target.png" alt="icon" />
+            <h5>Clarified Vision & Target</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card">
+            <img src="Images/perform.png" alt="icon" />
+            <h5>High Performance</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card">
+            <img src="Images/security.png" alt="icon" />
+            <h5>Maintain Security</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card">
+            <img src="Images/quality.png" alt="icon" />
+            <h5>Better Strategy & Quality</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="project" class="fourth">
+        <div class="content">
+          <p>OUR PROJECTS</p>
+          <h3>WHY WE ARE THE BEST?</h3>
+        </div>
+
+        <div class="container">
+          <div class="left">
+            <img src="Images/projectImg1.png" alt="Image 1" />
+          </div>
+          <div class="right">
+            <div class="card" data-image="Images/projectImg1.png">
+              <h2>Genderless Kei - Japan's Hot</h2>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering a lot.
+              </p>
+            </div>
+            <div class="card" data-image="Images/projectImg2.webp">
+              <h2>Better Strategy & Quality</h2>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering a lot.
+              </p>
+            </div>
+            <div class="card" data-image="Images/projectImg3.jpg">
+              <h2>Genderless Kei - Japan's Hot</h2>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering a lot.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="fifth">
+        <div class="content">
+          <p>EXPERTS GROWTH</p>
+          <h3>OUR COMPANY GROWTH</h3>
+        </div>
+
+        <div class="cardContainer flex">
+          <div class="card">
+            <img src="Images/heart.png" alt="icon" />
+            <h5>199+</h5>
+            <p>Satisfied Customers</p>
+          </div>
+          <div class="card">
+            <img src="Images/time.png" alt="icon" />
+            <h5>1591+</h5>
+            <p>Days Of Operation</p>
+          </div>
+          <div class="card">
+            <img src="Images/cheched.png" alt="icon" />
+            <h5>283+</h5>
+            <p>Complete Projects</p>
+          </div>
+          <div class="card">
+            <img src="Images/trophy.png" alt="icon" />
+            <h5>75+</h5>
+            <p>Win Awards</p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="review" class="sixth">
+        <p class="sub-head">CLIENT'S FEEDBACK</p>
+        <h3>PEOPLE SAY'S ABOUT US !</h3>
+        <p class="feedback">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas
+          dolorem ducimus porro itaque recusandae quia iure consequatur, nam.
+        </p>
+        <p class="name" style="color: #666">
+          <span style="color: red; font-weight: 800">JANNAT TUMPA</span> - COO,
+          AMERIMAR ENTERPRISES, INC.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <img src="Images/logo1.webp" alt="logo" />
+      <img src="Images/logo2.png" alt="logo" />
+      <img src="Images/logo3.jpeg" alt="logo" />
+      <img src="Images/logo4.png" alt="logo" />
+      <img src="Images/logo5.png" alt="logo" />
+      <img src="Images/logo6.png" alt="logo" />
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
