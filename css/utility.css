@@ -1,21 +1,21 @@
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .item-center {
-    align-items: center;
+  align-items: center;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 hr {
-    width: 90%;
-    margin: auto;
-    border: 1.4px solid black;
-  }
+  width: 90%;
+  margin: auto;
+  border: 1.4px solid black;
+}
